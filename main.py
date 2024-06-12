@@ -34,7 +34,7 @@ pyautogui.press('enter')
 pyautogui.write('git branch -M main')
 pyautogui.press('enter')
 
-pyautogui.write('git remote add origin main', repositorio_remoto)
+pyautogui.write(f'git remote add origin main', repositorio_remoto)
 pyautogui.press('enter')
 
 pyautogui.write('git push -u origin main')
