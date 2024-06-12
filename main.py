@@ -12,12 +12,10 @@ pyautogui.PAUSE = 1
 # Ex: Repositorio remoto https://github.com/giscardpython/teste4.git
 repositorio_remoto = str(input('Informe o repositório remoto do GitHub para onde devem ser enviados os arquivos: '))
 
-pyautogui.hotkey('ctrl', 'k', 'ctrl', 'o', "'")
-
+#pyautogui.hotkey('ctrl', 'k', 'ctrl', 'o', "'")
 # espera 5 segundos para dar tempo de fazer a criação
-time.sleep(15)
-
-pyautogui.hotkey('ctrl', 'shift', "'")
+#time.sleep(5)
+#pyautogui.hotkey('ctrl', 'shift', "'")
 
 pyautogui.write('git init .')
 pyautogui.press('enter')
@@ -37,5 +35,5 @@ pyautogui.press('enter')
 pyautogui.write('git remote add origin main', repositorio_remoto)
 pyautogui.press('enter')
 
-pyautogui.write('git push')
+pyautogui.write('git push -u origin main')
 pyautogui.press('enter')
