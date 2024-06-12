@@ -34,7 +34,7 @@ pyautogui.press('enter')
 pyautogui.write('git branch -M main')
 pyautogui.press('enter')
 
-pyautogui.write('git remote add origin main http://github.com/giscardpython/envio.git')
+pyautogui.write('git remote add origin http://github.com/giscardpython/envio.git')
 pyautogui.press('enter')
 
 pyautogui.write('git push -u origin main')
