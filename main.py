@@ -15,7 +15,8 @@ repositorio_remoto = str(input('Informe o repositório remoto do GitHub para ond
 #pyautogui.hotkey('ctrl', 'k', 'ctrl', 'o', "'")
 # espera 5 segundos para dar tempo de fazer a criação
 #time.sleep(5)
-#pyautogui.hotkey('ctrl', 'shift', "'")
+
+pyautogui.hotkey('ctrl', 'shift', "'")
 
 pyautogui.write('git init .')
 pyautogui.press('enter')
