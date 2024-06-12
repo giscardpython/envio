@@ -3,8 +3,8 @@
 # Ao terminar, gere um executável e envie.
 
 # importa bibliotecas
-import pyautogui
 import time
+import pyautogui
 
 # tempo que cada comando demora para executar
 pyautogui.PAUSE = 1
