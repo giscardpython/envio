@@ -10,6 +10,8 @@ import time
 pyautogui.PAUSE = 1
 
 # Ex: Repositorio remoto https://github.com/giscardpython/teste4.git
+
+
 repositorio_remoto = str(input('Informe o repositório remoto do GitHub para onde devem ser enviados os arquivos: '))
 
 #pyautogui.hotkey('ctrl', 'k', 'ctrl', 'o', "'")
