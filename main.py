@@ -13,7 +13,6 @@ pyautogui.PAUSE = 1
 repositorio_remoto = str(input('Informe o repositório remoto do GitHub para onde devem ser enviados os arquivos: '))
 
 #pyautogui.hotkey('ctrl', 'k', 'ctrl', 'o', "'")
-# espera 5 segundos para dar tempo de fazer a criação
 #time.sleep(5)
 
 pyautogui.hotkey('ctrl', 'shift', "'")
@@ -24,9 +23,11 @@ pyautogui.press('enter')
 pyautogui.write('git add .')
 pyautogui.press('enter')
 
-pyautogui.write('git commit -m "Repositório atualizado por automação."')
+pyautogui.write('git commit -m "Repositorio atualizado por automacao."')
+
 # espera 5 segundos para dar tempo de fazer o commit
 time.sleep(5)
+
 # continua as instruções
 pyautogui.press('enter')
 
